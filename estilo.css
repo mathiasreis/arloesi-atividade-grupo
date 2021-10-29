@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: repeat url("dogs.jpg");
+
+  font-family: "Varela Round", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+    padding: 30px;
+}
+
+.cover {
+  background-color: white;
+}
+
+.container {
+  width: 963px;
+  margin: 0 auto;
+  background-color: #d4b397;
+}
+
+.container h1, p {
+    padding: 30px 0;
+}
+
+.menu-container {
+  width: 960px;
+  height: 72px;
+  line-height: 72px;
+  background-color: #fbaf5e;
+  margin: 0 auto;
+  color: white;
+  border: 1px solid black;
+  font-family: "Pacifico", cursive;
+}
+
+ul.menu {
+  text-align: center; /* centraliza o menu na horizontal 
+    list-style: none;*/
+}
+
+ul.menu li {
+  display: inline-block; /* centraliza e coloca lado a lado os elementos do menu na horizontal */
+}
+
+ul.menu li a {
+  color: white;
+  /*height: 72px;
+    display: inline-block;*/
+  padding: 25px;
+}
+
+ul.menu li a:visited {
+  color: white;
+}
+
+.conteudo {
+  text-align: center;
+}
+
+.rodape {
+  width: 960px;
+  height: 72px;
+  line-height: 72px;
+  background-color: #fbaf5e;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  color: white;
+  border: 1px solid black;
+  font-family: "Pacifico", cursive;
+}
